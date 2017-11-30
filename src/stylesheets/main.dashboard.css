@@ -1,33 +1,117 @@
 body {
     background-color: white;
-    margin: 0;
-    border: 1px solid red;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    text-size-adjust: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    overflow: hidden;
 
+}
+
+.container {
+    margin: 0;
+    padding: 0;
 }
 
 
 #main-wrapper {
     width: 100%;
     border: 1px solid green;
-     background-color: yellowgreen;
-    height: 800px;
-}
-#main-wrapper #page-wrapper {
-      width: 98%;
-    text-align: center;
-    border: 1px solid brown;
-    height: 568px;
-    
-}
-h1 {
-    color: white;
-    text-align: center;
+    background-color: yellowgreen;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
-    text-align: center;
+#page-wrapper {
+    border: 2px solid brown;
+    background-color: #e5e4e4;
+    min-height: 700px;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+
+}
+
+@media(min-width:768px) {
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        border-left: 1px solid #e7e7e7;
+        box-sizing: border-box;
+        border: 2px solid brown;
+    }
+}
+
+#left-toggle-bar {
+    padding: 0;
+    width: 250px;
+    background: #FF5733;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+#left-toggle-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#left-toggle-bar li {}
+
+.main-header {
+    padding: 0;
+    background: #2a2a2a;
+    width: 100%;
+    height: 80px;
+    color: white;
+    border-bottom: 2px solid #1cb698;
+}
+
+
+.btn-bar {
+    background: black;
+    color: #1bbc9d;
+    border: 0;
+}
+
+.btn-bar:hover {
+    background: black;
+    color: #1bbc9d;
+    border: 0;
+}
+
+ul#left-horizontal-list {
+    list-style: none;
+    padding-top: 20px;
+
+}
+
+ul#left-horizontal-list li {
+    display: inline;
+}
+
+ul#left-horizontal-list li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul#right-horizontal-list {
+    list-style: none;
+    padding-top: 20px;
+
+}
+
+ul#right-horizontal-list li {
+    display: inline;
+}
+
+ul#right-horizontal-list li a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
