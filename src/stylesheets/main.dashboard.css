@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+    margin: 0;
+    border: 1px solid red;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+#wrapper {
+    width: 100%;
+    border: 1px solid green;
+    height: 800px;
+}
+#page_wrapper{
+    width: 98%;
+    text-align: center;
+    border: 1px solid brown;
+    height: 800px;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}

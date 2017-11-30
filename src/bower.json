@@ -1,0 +1,30 @@
+{
+  "name": "BRACKET_NG_CLIENT",
+  "authors": [
+    "santosh"
+  ],
+  "description": "THIS IS SIMPLE",
+  "main": "app.config.js",
+  "keywords": [
+    "CSS",
+    "HTML",
+    "ANGULARJS",
+    "NODE",
+    "JS",
+    "REST",
+    "MONGODB"
+  ],
+  "license": "MIT",
+  "homepage": "www.bracket.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
