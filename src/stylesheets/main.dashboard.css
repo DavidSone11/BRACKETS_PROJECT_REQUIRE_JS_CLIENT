@@ -9,15 +9,16 @@ body {
 
 
 #main-wrapper {
-     width: 100%;
+    width: 100%;
     border: 1px solid green;
+     background-color: yellowgreen;
     height: 800px;
 }
 #main-wrapper #page-wrapper {
       width: 98%;
     text-align: center;
     border: 1px solid brown;
-    height: 800px;
+    height: 568px;
     
 }
 h1 {
