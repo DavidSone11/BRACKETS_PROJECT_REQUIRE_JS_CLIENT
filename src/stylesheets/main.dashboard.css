@@ -7,19 +7,19 @@ body {
 
 }
 
-#wrapper {
-    width: 100%;
+
+#main-wrapper {
+     width: 100%;
     border: 1px solid green;
     height: 800px;
 }
-#page_wrapper{
-    width: 98%;
+#main-wrapper #page-wrapper {
+      width: 98%;
     text-align: center;
     border: 1px solid brown;
     height: 800px;
     
 }
-
 h1 {
     color: white;
     text-align: center;
