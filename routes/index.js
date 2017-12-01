@@ -7,4 +7,14 @@ router.get('/', function(req, res, next) {
     res.render('index', { title: 'Express' });
 });
 
+
+router.post("/api/v1/user",function(req,res,next){
+
+    console.log("DSADASD"+req);
+
+
+})
+
+
+
 module.exports = router;
