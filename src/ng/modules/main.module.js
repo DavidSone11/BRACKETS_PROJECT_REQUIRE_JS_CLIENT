@@ -1,3 +1,3 @@
-define(['angular','controllers/main.controller'], function (angular, controller) {
+define(['angular', 'jquery', 'bootstrap', 'controllers/main.controller'], function (angular, jquery, bootstrap, controller) {
     angular.module('app', []).controller('mainController', controller);
 });

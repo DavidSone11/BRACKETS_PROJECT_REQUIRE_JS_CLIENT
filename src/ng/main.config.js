@@ -23,13 +23,18 @@ require.config({
             deps: ['angular'],
             exports: 'angular'
         },
+        'angular-loading-bar': {
+            deps: ['angular'],
+            exports: 'angular'
+        },
+         bootstrap: {
+            'deps': ['jquery']
+        },
          
         angular: {
             exports: 'angular'
         },
-        bootstrap: {
-            'deps': ['jquery']
-        }
+
     }
 });
 require(['angular', 'jquery', 'bootstrap', 'modules/main.module'],

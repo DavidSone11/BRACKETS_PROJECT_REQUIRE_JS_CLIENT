@@ -3,7 +3,7 @@ mongoose.Promise = global.Promise;
 
 var dbURI = 'mongodb://127.0.0.1/locolink';
 
-const options = {
+var options = {
     promiseLibrary: global.Promise,
     useMongoClient: true,
     autoIndex: false, // Don't build indexes
