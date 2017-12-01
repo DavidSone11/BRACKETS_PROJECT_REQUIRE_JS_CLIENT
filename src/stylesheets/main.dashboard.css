@@ -10,7 +10,9 @@
     body {
         background-color: white;
         box-sizing: border-box;
-/*        border: 1px solid blue;*/
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        /*        border: 1px solid blue;*/
         text-size-adjust: 100%;
         margin: 0px;
         padding: 0px;
@@ -22,18 +24,19 @@
         /* border: 1px solid green; */
         /* background-color: yellowgreen; */
         box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
         margin: 0px;
         padding: 0px;
     }
 
     #page-wrapper {
-
         background-color: #e5e4e4;
         min-height: 700px;
         padding: 0 15px;
         box-sizing: border-box;
-
-
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
     }
 
     @media(min-width:768px) {
@@ -41,11 +44,12 @@
             position: inherit;
             margin: 0px 0 0 242px;
             border-left: 10px solid #dcc7c7;
-/*            border-right: 0px;*/
+            /*            border-right: 0px;*/
             /* border-top: 0px; */
-/*            border-bottom: 0px;*/
+            /*            border-bottom: 0px;*/
             box-sizing: border-box;
-
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
         }
     }
 
@@ -80,7 +84,6 @@
     .left-toggle-bar li a {
         text-decoration: none;
         color: white;
-
     }
 
     .main-header {
@@ -91,7 +94,6 @@
         color: white;
         border-bottom: 2px solid #1cb698;
     }
-
 
     .btn-bar {
         background: black;
@@ -108,7 +110,6 @@
     ul#left-horizontal-list {
         list-style: none;
         padding-top: 20px;
-
     }
 
     ul#left-horizontal-list li {
@@ -122,8 +123,7 @@
 
     ul#right-horizontal-list {
         list-style: none;
-/*        padding-top: 20px;*/
-
+        /*        padding-top: 20px;*/
     }
 
     ul#right-horizontal-list li {
@@ -134,10 +134,10 @@
         color: #FFFFFF;
         text-decoration: none;
     }
-#sub-header {
-    width: 100%;
-    height:15px;
-    border-bottom: 5px solid rbga(35,35,35,1);
-    background: rgba(0,0,0,1);
 
-}
+    #sub-header {
+        width: 100%;
+        height: 15px;
+        border-bottom: 5px solid rbga(35, 35, 35, 1);
+        background: rgba(0, 0, 0, 1);
+    }
